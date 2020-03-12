@@ -11,7 +11,7 @@
             <ColumnDefinition Width="12*"/>
             <ColumnDefinition Width="13*"/>
         </Grid.ColumnDefinitions>
-        <Button Content="" VerticalAlignment="Top" Height="419" IsCancel="True" HorizontalAlignment="Left" Width="100" Background="White" BorderBrush="Black"/>
+        <Button x:Name="BtnC" Content="" VerticalAlignment="Top" Height="419" IsCancel="True" HorizontalAlignment="Left" Width="100" Background="White" BorderBrush="Black" Click="BtnC_Click"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Margin="100,0,0,0" IsCancel="True" Background="White" BorderBrush="Black"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="418" Margin="200,0,0,0" IsDefault="True" Background="White" BorderBrush="Black"/>
         <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Margin="300,0,0,0" IsDefault="True" Background="White" BorderBrush="Black" Grid.ColumnSpan="2"/>
