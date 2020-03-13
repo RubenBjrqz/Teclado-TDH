@@ -20,7 +20,7 @@
         <Button x:Name="btnB" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Margin="264,0,0,0" Background="White" Foreground="Black" BorderBrush="Black" Grid.Column="1" Click="BtnB_Click"/>
         <Button x:Name="btnCSostenido" Content="" VerticalAlignment="Top" Height="285" IsCancel="True" HorizontalAlignment="Left" Width="50" Background="Black" BorderBrush="Black" Margin="75,0,0,0" Click="BtnCSostenido_Click"/>
         <Button x:Name="btnDSostenido" Content="" VerticalAlignment="Top" Height="285" IsCancel="True" HorizontalAlignment="Left" Width="50" Background="Black" BorderBrush="Black" Margin="175,0,0,0" Click="BtnDSostenido_Click"/>
-        <Button x:Name="btnBSostenido" Content="" VerticalAlignment="Top" Height="285" IsCancel="True" HorizontalAlignment="Left" Width="50" Background="Black" BorderBrush="Black" Margin="239,0,0,0" Grid.Column="1" Click="BtnBSostenido_Click"/>
+        <Button x:Name="btnASostenido" Content="" VerticalAlignment="Top" Height="285" IsCancel="True" HorizontalAlignment="Left" Width="50" Background="Black" BorderBrush="Black" Margin="239,0,0,0" Grid.Column="1" Click="BtnASostenido_Click"/>
         <Button x:Name="btnGSostenido" Content="" VerticalAlignment="Top" Height="285" IsCancel="True" HorizontalAlignment="Left" Width="50" Background="Black" BorderBrush="Black" Margin="139,0,0,0" Grid.Column="1" Click="BtnGSostenido_Click"/>
         <Button x:Name="btnFSostenido" Content="" VerticalAlignment="Top" Height="285" IsCancel="True" HorizontalAlignment="Left" Width="50" Background="Black" BorderBrush="Black" Margin="39,0,0,0" Grid.Column="1" Click="BtnFSostenido_Click"/>
 

@@ -64,6 +64,34 @@ namespace Teclado
             {
                 BtnE_Click(this, null);
             }
+            if (e.Key == Key.F)
+            {
+                BtnF_Click(this, null);
+            }
+            if (e.Key == Key.T)
+            {
+                BtnFSostenido_Click(this, null);
+            }
+            if (e.Key == Key.G)
+            {
+                BtnG_Click(this, null);
+            }
+            if (e.Key == Key.Y)
+            {
+                BtnGSostenido_Click(this, null);
+            }
+            if (e.Key == Key.H)
+            {
+                BtnA_Click(this, null);
+            }
+            if (e.Key == Key.U)
+            {
+                BtnASostenido_Click(this, null);
+            }
+            if (e.Key == Key.J)
+            {
+                BtnB_Click(this, null);
+            }
         }
 
         private ISampleProvider NotaDo()
@@ -146,7 +174,7 @@ namespace Teclado
             mixer.AddMixerInput(nota_la);
         }
 
-        private void BtnBSostenido_Click(object sender, RoutedEventArgs e)
+        private void BtnASostenido_Click(object sender, RoutedEventArgs e)
         {
             var nota_laSostenido = DoModificado(11.0 / 12.0);
             mixer.AddMixerInput(nota_laSostenido);
