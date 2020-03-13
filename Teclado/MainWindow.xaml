@@ -11,18 +11,18 @@
             <ColumnDefinition Width="12*"/>
             <ColumnDefinition Width="13*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="BtnC" Content="" VerticalAlignment="Top" Height="419" IsCancel="True" HorizontalAlignment="Left" Width="100" Background="White" BorderBrush="Black" Click="BtnC_Click"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Margin="100,0,0,0" IsCancel="True" Background="White" BorderBrush="Black"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="418" Margin="200,0,0,0" IsDefault="True" Background="White" BorderBrush="Black"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Margin="300,0,0,0" IsDefault="True" Background="White" BorderBrush="Black" Grid.ColumnSpan="2"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Margin="64,0,0,0" Background="White" BorderBrush="Black" Grid.Column="1"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Margin="164,0,0,0" Background="White" BorderBrush="Black" Grid.Column="1"/>
-        <Button Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Margin="264,0,0,0" Background="White" Foreground="Black" BorderBrush="Black" Grid.Column="1"/>
-        <Button Content="" VerticalAlignment="Top" Height="285" IsCancel="True" HorizontalAlignment="Left" Width="50" Background="Black" BorderBrush="Black" Margin="75,0,0,0"/>
-        <Button Content="" VerticalAlignment="Top" Height="285" IsCancel="True" HorizontalAlignment="Left" Width="50" Background="Black" BorderBrush="Black" Margin="175,0,0,0"/>
-        <Button Content="" VerticalAlignment="Top" Height="285" IsCancel="True" HorizontalAlignment="Left" Width="50" Background="Black" BorderBrush="Black" Margin="239,0,0,0" Grid.Column="1"/>
-        <Button Content="" VerticalAlignment="Top" Height="285" IsCancel="True" HorizontalAlignment="Left" Width="50" Background="Black" BorderBrush="Black" Margin="139,0,0,0" Grid.Column="1"/>
-        <Button Content="" VerticalAlignment="Top" Height="285" IsCancel="True" HorizontalAlignment="Left" Width="50" Background="Black" BorderBrush="Black" Margin="39,0,0,0" Grid.Column="1"/>
+        <Button x:Name="btnC" Content="" VerticalAlignment="Top" Height="419" IsCancel="True" HorizontalAlignment="Left" Width="100" Background="White" BorderBrush="Black" Click="BtnC_Click"/>
+        <Button x:Name="btnD" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Margin="100,0,0,0" IsCancel="True" Background="White" BorderBrush="Black" Click="BtnD_Click"/>
+        <Button x:Name="btnE" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="418" Margin="200,0,0,0" IsDefault="True" Background="White" BorderBrush="Black" Click="BtnE_Click"/>
+        <Button x:Name="btnF" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Margin="300,0,0,0" IsDefault="True" Background="White" BorderBrush="Black" Grid.ColumnSpan="2" Click="BtnF_Click"/>
+        <Button x:Name="btnG" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Margin="64,0,0,0" Background="White" BorderBrush="Black" Grid.Column="1" Click="BtnG_Click"/>
+        <Button x:Name="btnA" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Margin="164,0,0,0" Background="White" BorderBrush="Black" Grid.Column="1" Click="BtnA_Click"/>
+        <Button x:Name="btnB" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="419" Margin="264,0,0,0" Background="White" Foreground="Black" BorderBrush="Black" Grid.Column="1" Click="BtnB_Click"/>
+        <Button x:Name="btnCSostenido" Content="" VerticalAlignment="Top" Height="285" IsCancel="True" HorizontalAlignment="Left" Width="50" Background="Black" BorderBrush="Black" Margin="75,0,0,0" Click="BtnCSostenido_Click"/>
+        <Button x:Name="btnDSostenido" Content="" VerticalAlignment="Top" Height="285" IsCancel="True" HorizontalAlignment="Left" Width="50" Background="Black" BorderBrush="Black" Margin="175,0,0,0" Click="BtnDSostenido_Click"/>
+        <Button x:Name="btnBSostenido" Content="" VerticalAlignment="Top" Height="285" IsCancel="True" HorizontalAlignment="Left" Width="50" Background="Black" BorderBrush="Black" Margin="239,0,0,0" Grid.Column="1" Click="BtnBSostenido_Click"/>
+        <Button x:Name="btnGSostenido" Content="" VerticalAlignment="Top" Height="285" IsCancel="True" HorizontalAlignment="Left" Width="50" Background="Black" BorderBrush="Black" Margin="139,0,0,0" Grid.Column="1" Click="BtnGSostenido_Click"/>
+        <Button x:Name="btnFSostenido" Content="" VerticalAlignment="Top" Height="285" IsCancel="True" HorizontalAlignment="Left" Width="50" Background="Black" BorderBrush="Black" Margin="39,0,0,0" Grid.Column="1" Click="BtnFSostenido_Click"/>
 
     </Grid>
 </Window>
